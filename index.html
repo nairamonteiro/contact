@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">Entre em contato conosco!</h2>
+
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua.
+          </p>
+
+          <form action="" class="contact-form">
+
+            <div class="input-wrapper">
+              <input type="text" name="name" aria-label="name" placeholder="Seu nome*" required class="input-field">
+
+              <input type="email" name="email_address" aria-label="email" placeholder="Seu email*" required
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <input type="text" name="subject" aria-label="subject" placeholder="Assunto" class="input-field">
+
+              <input type="number" name="phone" aria-label="phone" placeholder="Celular" class="input-field">
+            </div>
+
+            <textarea name="message" aria-label="message" placeholder="Sua mensagem...*" required
+              class="input-field"></textarea>
+
+            <div class="checkbox-wrapper">
+              <input type="checkbox" name="terms_and_policy" id="terms" required class="checkbox">
+
+              <label for="terms" class="label">
+                Aceito os <a href="#" class="label-link">Termos de Serviço</a> e <a href="#" class="label-link">Política de
+                  Privacidade</a>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+
+          </form>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <div class="contact-card">
+
+                <div class="card-icon">
+                  <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Email</h3>
+
+                  <a href="mailto:email@mona.com" class="card-link">email@mona.com</a>
+                  <a href="mailto:info@mona.com" class="card-link">info@mona.com</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-card">
+
+                <div class="card-icon">
+                  <ion-icon name="map-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Endereço</h3>
+
+                  <address class="card-address">
+                    São Paulo, Brasil<br>
+                    Avenida Paulista
+                  </address>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="contact-card">
+
+                <div class="card-icon">
+                  <ion-icon name="headset-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Telefone</h3>
+
+                  <a href="tel:+551199999999" class="card-link">11 9999-9999</a>
+                  <a href="tel:+551199999999" class="card-link">11 9999-9999</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
